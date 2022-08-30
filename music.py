@@ -1,4 +1,3 @@
-#this file has been taken from https://github.com/iannase/musixmatch-python-api/blob/master/lyrics_api.py
 
 # musixmatch api base url
 base_url = "https://api.musixmatch.com/ws/1.1/"
@@ -144,7 +143,7 @@ while True:
 
     
     print()
-
+#yet working on this to make it work
     if choice =='2':
         print("Enter the song you want to find Album & Artist for : ")
         track_name = input("> ")
